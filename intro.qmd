@@ -276,8 +276,8 @@ change the paths. This is something that needs to be documented in a README
 which we assumed was the case, so there's that. But maybe this pipeline only
 runs on your laptop because the computational environment that you're using is
 hard to reproduce. Maybe you use software, even if it's open source software,
-that is not easy to install (anyone that tried to install R packages on Linux
-that depend on the `{rJava}` package know what I'm talking about).
+that is not easy to install (anyone who has tried to install R packages on Linux
+that depend on the `{rJava}` package knows what I'm talking about).
 
 So a least worse pipeline would be one that could be run more easily on any
 similar machine to yours. This could be achieved by not using hardcoded absolute
