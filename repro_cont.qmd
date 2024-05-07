@@ -1465,7 +1465,7 @@ FROM rap4all/dev_env_r:4.2.2`
 This is different from before, where I pulled from `ubuntu:jammy`. Now I’m
 re-using the image that defines the development environment, and I can do so
 for as many projects as necessary. In time, I could update to a newer version
-of R, if required. But R and (Ubuntu) being quite stable, as long as I can
+of R, if required. But R (and Ubuntu) being quite stable, as long as I can
 install the packages required for my projects, I can keep using it for years
 (and LTS versions of Ubuntu like Jammy get supported for 5 years).
 
